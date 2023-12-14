@@ -1,5 +1,5 @@
--- Task 7: Average score - creates a stored procedure ComputeOverallScoreForUser
--- that computes and store the overall score for a student.
+-- Task 7: Average score - 
+-- that computes and store the overall score
 DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
 DELIMITER $$
 CREATE PROCEDURE ComputeAverageScoreForUser(
