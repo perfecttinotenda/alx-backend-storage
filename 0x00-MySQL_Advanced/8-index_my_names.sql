@@ -1,3 +1,3 @@
--- Task 8: Optimize simple search - creates an index idx_name_first
--- on the table names and the first letter of name
+-- Task 8: Optimizing simple search
+-- on the table names
 CREATE INDEX idx_name_first ON names ( name(1) );
