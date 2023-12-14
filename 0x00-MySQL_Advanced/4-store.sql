@@ -1,5 +1,5 @@
--- Task 4: Buy buy buy - creates a trigger that decreases the quantity
--- of an item after adding a new order
+-- Task 4: Buy - will create a trigger that decreases the qty
+-- of the item after adding with a new order
 CREATE TRIGGER order_decrease BEFORE INSERT ON orders
 FOR EACH ROW UPDATE items
 SET quantity = quantity - NEW.number
