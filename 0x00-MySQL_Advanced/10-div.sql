@@ -1,6 +1,5 @@
--- Task 10: Safe divide - creates a function SafeDiv that divides
--- (and returns) the first by the second number
--- or returns 0 if the second number is equal to 0
+-- Task 10: Safe divide - 
+-- or rtrns 0 if second num is equal to 0
 DELIMITER |
 DROP FUNCTION IF EXISTS SafeDiv;
 CREATE FUNCTION SafeDiv (a INT, b INT)
